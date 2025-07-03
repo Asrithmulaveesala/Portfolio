@@ -39,6 +39,6 @@ html, body {
 }
 
 .resume-button:hover {
-  background-color: #ff4fa3;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  background-color: #0a0a0a;
+  box-shadow: 0 8px 20px rgba(248, 179, 179, 0.3);
 }

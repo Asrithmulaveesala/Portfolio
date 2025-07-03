@@ -19,7 +19,7 @@ const projectList = [
     title: "My PERSONAL PORTFOLIO website",
     description: "A simple and responsive Todo List application built with React that allows users to add, track, and manage daily tasks efficiently with an interactive user interface.",
     github: "https://github.com/Asrithmulaveesala/portfolio1",
-    demo: "#"
+    demo: "https://portfolio-eight-zeta-46.vercel.app/"
   }
 ];
 
