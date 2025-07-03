@@ -40,36 +40,36 @@
   color: white;
 }
 
-
+/* Responsive Styling */
 @media (max-width: 768px) {
   .navbar {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
     padding: 1rem 2rem;
   }
 
   .navbar-logo {
-    font-size: 1.2rem;
-    flex-shrink: 0; /* Prevent logo from shrinking */
-    white-space: nowrap;
-  }
-
-  .navbar-links {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    background-color: transparent;
-    padding: 0;
-    position: static;
-  }
-
-  .navbar-links li {
-    padding: 0;
-    text-align: right;
+    display: none; /* Hide logo/name */
   }
 
   .menu-toggle {
+    display: block;
+    margin-left: auto; /* Push to right */
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
     display: none;
+    background-color: #000;
+    padding: 1rem 0;
+  }
+
+  .navbar-links.show {
+    display: flex;
+  }
+
+  .navbar-links li {
+    padding: 0.8rem 0;
+    text-align: center;
   }
 }
