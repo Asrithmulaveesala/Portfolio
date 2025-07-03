@@ -32,3 +32,39 @@
 .navbar-links li:hover {
   color: #666;
 }
+
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    background-color: #000;
+    padding: 1rem 0;
+  }
+
+  .navbar-links.show {
+    display: flex;
+  }
+
+  .navbar-links li {
+    padding: 0.8rem 0;
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
