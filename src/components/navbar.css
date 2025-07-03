@@ -44,24 +44,24 @@
 @media (max-width: 768px) {
   .navbar {
     flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
   }
 
   .navbar-logo {
-    font-size: 1.2rem; 
-    flex: 1;
+    font-size: 1.2rem;
+    flex-shrink: 0; /* Prevent logo from shrinking */
     white-space: nowrap;
   }
 
   .navbar-links {
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
     gap: 1rem;
     background-color: transparent;
     padding: 0;
-    position: absolute;
-    right: 2rem;
-    top: 50%;
-    transform: translateY(-50%);
+    position: static;
   }
 
   .navbar-links li {
@@ -70,6 +70,6 @@
   }
 
   .menu-toggle {
-    display: none; 
+    display: none;
   }
 }
