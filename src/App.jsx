@@ -21,6 +21,7 @@ const App = () => {
         className="resume-button"
         target="_blank"
         rel="noopener noreferrer"
+        download
       >
         Resume
       </a>
