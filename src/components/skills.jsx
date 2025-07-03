@@ -4,7 +4,7 @@ import './skills.css';
 
 const skills = [
   'HTML', 'CSS', 'JavaScript', 'React', 'Node.js',
-  'Python', 'Flask', 'ML', 'SQL', 'Git','Java','Python','Data analyst','MySql','Php'
+  'Python', 'Flask', 'ML', 'SQL', 'Git','Java','Python','MySql','Php','Power Bi'
 ];
 
 const Skills = () => {

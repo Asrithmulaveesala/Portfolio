@@ -4,7 +4,7 @@ import './projects.css';
 
 const projectList = [
   {
-    title: "TODO LIST APP",
+    title: "Todo list app",
     description: "A responsive Todo List app built with React, enabling users to add, complete, and manage daily tasks interactively.",
     github: "https://github.com/Asrithmulaveesala/todolist",
     demo: "https://todolist-murex-psi-97.vercel.app/"
@@ -16,7 +16,7 @@ const projectList = [
     demo: "https://crop-prediction-1-7flo.onrender.com/"
   },
   {
-    title: "My PERSONAL PORTFOLIO website",
+    title: "My personal portfolio website",
     description: "A simple and responsive Todo List application built with React that allows users to add, track, and manage daily tasks efficiently with an interactive user interface.",
     github: "https://github.com/Asrithmulaveesala/portfolio1",
     demo: "https://portfolio-eight-zeta-46.vercel.app/"
