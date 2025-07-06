@@ -1,0 +1,75 @@
+.about-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  width: 90%;
+}
+
+.about-image img {
+  width: 450px;   /* More width */
+  height: 300px;  /* Less height */
+  object-fit: cover;
+  border-radius: 12px;
+  border: 4px solid #ddd;
+}
+
+.about-text {
+  max-width: 700px;
+  text-align: left;
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-points {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.about-points li {
+  margin-bottom: 0.5rem;
+}
+
+.about-subheading {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  color: #4b6cb7;
+}
+
+.about-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.about-skills li {
+  background-color: #f0f0f0;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #333;
+}

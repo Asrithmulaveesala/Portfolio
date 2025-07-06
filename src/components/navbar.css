@@ -22,15 +22,19 @@
   list-style: none;
   display: flex;
   gap: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-links li {
   cursor: pointer;
+  color: white;
   transition: color 0.3s ease;
+  font-size: 1rem;
 }
 
 .navbar-links li:hover {
-  color: #666;
+  color: #999;
 }
 
 .menu-toggle {
@@ -48,12 +52,12 @@
   }
 
   .navbar-logo {
-    display: none; /* Hide logo/name */
+    display: none; /* Hide logo on mobile */
   }
 
   .menu-toggle {
     display: block;
-    margin-left: auto; /* Push to right */
+    margin-left: auto;
   }
 
   .navbar-links {

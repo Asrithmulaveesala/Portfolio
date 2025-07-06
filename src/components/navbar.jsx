@@ -8,7 +8,7 @@ const Navbar = () => {
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
-      setMenuOpen(false); // Close menu on item click (mobile)
+      setMenuOpen(false); 
     }
   };
 
@@ -25,6 +25,7 @@ const Navbar = () => {
 
       <ul className={`navbar-links ${menuOpen ? 'show' : ''}`}>
         <li onClick={() => scrollToSection('hero')}>Home</li>
+        <li onClick={() => scrollToSection('about')}>About</li>
         <li onClick={() => scrollToSection('skills')}>Skills</li>
         <li onClick={() => scrollToSection('projects')}>Projects</li>
         <li onClick={() => scrollToSection('contact')}>Contact</li>
