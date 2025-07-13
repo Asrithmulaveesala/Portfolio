@@ -16,7 +16,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="skills-section">
-      <h2 className="skills-title">My Super Powers</h2>
+      <h2 className="skills-title">Skills</h2>
       <div className="skills-container">
         {skills.map((skill, index) => (
           <div key={index} className="skill-row">

@@ -1,0 +1,116 @@
+.certificates-section {
+  padding: 40px 20px;
+  background: linear-gradient(to right, #fafbfb, #f8f9fa);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #08080a;
+  margin-bottom: 40px;
+}
+
+.certificates-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.certificate-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 320px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.certificate-card:hover {
+  transform: translateY(-8px);
+}
+
+.certificate-img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background: #f5f5f5;
+}
+
+.certificate-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.certificate-content h3 {
+  margin-top: 0;
+  font-size: 1.3rem;
+  color: #2d2d39;
+}
+
+.certificate-content p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.btn {
+  margin-top: 12px;
+  display: inline-block;
+  background-color: #090909;
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #09080b;
+}
+
+/* ========== RESPONSIVE STYLES ========== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .certificates-grid {
+    gap: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+  .certificates-section {
+    padding: 30px 15px;
+  }
+
+  .certificate-card {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .certificate-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .certificate-content p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}

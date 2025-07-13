@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
+import Certificates from './Certificates';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,6 +29,7 @@ const Navbar = () => {
         <li onClick={() => scrollToSection('about')}>About</li>
         <li onClick={() => scrollToSection('skills')}>Skills</li>
         <li onClick={() => scrollToSection('projects')}>Projects</li>
+        <li onClick={() => scrollToSection('certificates')}>Certificates</li>
         <li onClick={() => scrollToSection('contact')}>Contact</li>
       </ul>
     </nav>
