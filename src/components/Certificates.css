@@ -73,9 +73,7 @@
   background-color: #09080b;
 }
 
-/* ========== RESPONSIVE STYLES ========== */
 
-/* Tablets */
 @media (max-width: 1024px) {
   .certificates-grid {
     gap: 1.5rem;
