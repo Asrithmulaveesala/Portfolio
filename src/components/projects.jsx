@@ -2,27 +2,33 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './projects.css';
 
+import todoImage from '../assets/todolist.png';
+import cropImage from '../assets/crop-prediction.png';
+import portfolioImage from '../assets/portfolio.png';
+
 const projectList = [
   {
     title: "Todo list app",
     description: "A responsive Todo List app built with React, enabling users to add, complete, and manage daily tasks interactively.",
     github: "https://github.com/Asrithmulaveesala/todolist",
-    demo: "https://todolist-murex-psi-97.vercel.app/"
+    demo: "https://todolist-murex-psi-97.vercel.app/",
+    image: todoImage
   },
   {
     title: "Crop Prediction Tool",
     description: "Flask app to predict crops using ML and deployed with Render.",
     github: "https://github.com/Asrithmulaveesala/crop_prediction",
-    demo: "https://crop-prediction-1-7flo.onrender.com/"
+    demo: "https://crop-prediction-1-7flo.onrender.com/",
+    image: cropImage
   },
   {
     title: "My personal portfolio website",
-    description: "A simple and responsive Todo List application built with React that allows users to add, track, and manage daily tasks efficiently with an interactive user interface.",
+    description: "A personal website to showcase my projects and skills, built using React and fully responsive.",
     github: "https://github.com/Asrithmulaveesala/portfolio1",
-    demo: "https://portfolio-eight-zeta-46.vercel.app/"
+    demo: "https://portfolio-eight-zeta-46.vercel.app/",
+    image: portfolioImage
   }
 ];
-
 
 const Projects = () => {
   return (
@@ -36,6 +42,7 @@ const Projects = () => {
       <div className="projects-grid">
         {projectList.map((project, idx) => (
           <div key={idx} className="project-card">
+            <img src={project.image} alt={project.title} className="project-image" />
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <div className="project-links">
