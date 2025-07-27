@@ -14,24 +14,23 @@ const About = () => {
         </div>
 
         <div className="about-text">
-          <p>
-            Hey there! I'm <strong>KoushikAsrith Mulavisala</strong>, a passionate developer who enjoys building efficient, modern web experiences.
-            From crafting user-friendly interfaces to developing powerful backend systems, I love turning ideas into reality.
-          </p>
+      <p>
+  Hey there! I'm <strong>Koushik Asrith Mulavisala</strong>, a dedicated Machine Learning Engineer who thrives on creating intelligent, data-driven solutions.
+  From building robust ML models to deploying scalable AI systems, I’m passionate about transforming data into real-world impact.
+</p>
 
-          <ul className="about-points">
-            <li>💡 Solving real-world problems with clean, maintainable code.</li>
-            <li>🎨 Designing responsive, engaging user interfaces.</li>
-            <li>🤖 Exploring Machine Learning, AI, and emerging tech trends.</li>
-          </ul>
+<ul className="about-points">
+  <li>🧠 Solving complex problems using machine learning and deep learning techniques.</li>
+  <li>📊 Designing end-to-end pipelines for data preprocessing, training, and deployment.</li>
+  <li>🚀 Staying at the forefront of AI trends, research, and innovative technologies.</li>
+</ul>
+          
 
-          <h3 className="about-subheading">⚡ My Superpowers:</h3>
+          <h3 className="about-subheading">⚡ My Skills :</h3>
           <ul className="about-skills">
             <li>Machine learning</li>
             <li>Python</li>
             <li>Java</li>
-            <li>React.js</li>
-            <li>Node.js</li>
             <li>Git</li>
             <li>Flask</li>
             <li>Sql</li>

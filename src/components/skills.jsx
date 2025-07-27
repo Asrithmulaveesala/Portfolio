@@ -3,29 +3,59 @@ import './skills.css';
 
 const Skills = () => {
   const skills = [
-    { name: 'HTML', percentage: 80, icon: '' },
-    { name: 'CSS', percentage: 65, icon: '' },
-    { name: 'JavaScript', percentage: 40, icon: '' },
-    { name: 'Python', percentage: 90, icon: '' },
-    { name: 'Java', percentage: 80, icon: '' },
-    { name: 'Power Bi', percentage: 55, icon: '' },
-    { name: 'Machine learning', percentage: 75, icon: '' },
-    { name: 'React.js', percentage: 65, icon: '' },
-    { name: 'Node.js', percentage: 50, icon: '' }
+    {
+      title: 'Programming Languages',
+      items: 'Python, R, C++',
+      icon: '💻',
+    },
+    {
+      title: 'ML Frameworks',
+      items: 'TensorFlow, PyTorch, Scikit-learn',
+      icon: '🧠',
+    },
+    {
+      title: 'Data Processing',
+      items: 'Pandas, NumPy, OpenCV',
+      icon: '📊',
+    },
+    {
+      title: 'Deep Learning',
+      items: 'CNN, RNN, Transformers',
+      icon: '🔬',
+    },
+    {
+      title: 'Model Deployment',
+      items: 'Flask, FastAPI, Docker',
+      icon: '🚀',
+    },
+    {
+      title: 'Data Visualization',
+      items: 'Matplotlib, Seaborn, Plotly',
+      icon: '📈',
+    },
+    {
+      title: 'Cloud & DevOps',
+      items: 'AWS, GCP, MLflow',
+      icon: '☁️',
+    },
+    {
+      title: 'Tools & Platforms',
+      items: 'Jupyter, VS Code, Git',
+      icon: '🛠️',
+    },
   ];
 
   return (
-    <section id="skills" className="skills-section">
-      <h2 className="skills-title">Skills</h2>
-      <div className="skills-container">
+    <section className="skills-section" id="skills">
+      <h2 className="skills-heading">Skills & Technologies</h2>
+      <div className="skills-grid">
         {skills.map((skill, index) => (
-          <div key={index} className="skill-row">
-            <span className="skill-icon">{skill.icon}</span>
-            <span className="skill-name">{skill.name}</span>
-            <div className="progress-bar">
-              <div className="progress-fill" style={{ width: `${skill.percentage}%` }}></div>
+          <div className="skill-card" key={index}>
+            <div className="skill-icon-title">
+              <span className="skill-icon">{skill.icon}</span>
+              <div className="skill-title">{skill.title}</div>
             </div>
-            <span className="skill-percentage">{skill.percentage}%</span>
+            <div className="skill-items">{skill.items}</div>
           </div>
         ))}
       </div>
