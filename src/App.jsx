@@ -24,7 +24,7 @@ const App = () => {
       <Contact />
 
       <a
-        href="/KoushikAsrith_resume.pdf"
+        href="/koushik__asrith.pdf"
         className="resume-button"
         target="_blank"
         rel="noopener noreferrer"
