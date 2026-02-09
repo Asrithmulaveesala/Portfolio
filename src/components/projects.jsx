@@ -22,11 +22,11 @@ const projectList = [
     image: cropImage
   },
   {
-    title: "My personal portfolio website",
-    description: "A personal website to showcase my projects and skills, built using React and fully responsive.",
-    github: "https://github.com/Asrithmulaveesala/portfolio1",
-    demo: "https://portfolio-eight-zeta-46.vercel.app/",
-    image: portfolioImage
+    title: "Heart disease prediction",
+    description: "A best suitable machine learning model to predict heart diease.",
+    github: "https://github.com/Asrithmulaveesala/heart-disease-prediction",
+    demo: "",
+    image: heart_dieaseImage
   }
 ];
 
