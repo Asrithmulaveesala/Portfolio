@@ -25,8 +25,8 @@ const projectList = [
     title: "Heart disease prediction",
     description: "A best suitable machine learning model to predict heart diease.",
     github: "https://github.com/Asrithmulaveesala/heart-diease",
-    demo: "",
-    image: heart
+    demo: "/heart-diease.html",
+    image: portfolioImage
   }
 ];
 
